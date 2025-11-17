@@ -262,7 +262,7 @@ article {
     grid-column: 2 / 3;
   }
 
-  .section > .title-decor{
+  .section > .title-decor {
     grid-column: 2 / 3;
   }
 
@@ -335,9 +335,9 @@ article {
     flex-direction: row;
   }
 
-    .section_second > .section__card {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr); 
-      gap: var(--gap-medium);
-    }
+  .section_second > .section__card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: var(--gap-medium);
+  }
 }
