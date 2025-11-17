@@ -162,6 +162,10 @@ article {
   row-gap: var(--gap-small);
 }
 
+.card {
+  padding-bottom: var(--gap-medium);
+}
+
 .card__text {
   color: var(--article-color);
   font-size: var(--page-font-size);
