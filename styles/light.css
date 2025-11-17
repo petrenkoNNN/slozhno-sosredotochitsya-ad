@@ -8,7 +8,7 @@
   --button-active-color: #353430;
   --button-focus-color: #353430;
   --background-color: #fff1f7;
-  --header-color: #FFC2E6;
+  --header-color: #ffc2e6;
 }
 
 .theme-light .rec {
@@ -17,7 +17,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --title-color: #353430;;
+    --title-color: #353430;
     --accent-color: #ff8dcb;
     --text-color: #353430;
     --background-image: url(../images/cover-image-light.png);
