@@ -126,7 +126,7 @@
 .title-decor {
   background-color: var(--accent-color);
   grid-column: 1 / 4;
-  color: var(--background-color);
+  color: var(--title-color);
   font-weight: bold;
   font-size: var(--page-font-size);
   line-height: var(--line-height-medium);
@@ -188,7 +188,7 @@ article {
 
 .footer {
   display: grid;
-  height: max(100vh, 668px);
+  height: max(100vh, 768px);
   padding: 10px;
 }
 

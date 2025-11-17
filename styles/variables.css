@@ -8,7 +8,7 @@
   --button-active-color: #ff0070;
   --button-focus-color: #ff0070;
   --background-color: #000028;
-  --header-color: #db00ff;
+  --header-color: #FFC2E6;
 
   --page-font-size: 18px;
   --page-font-family: "IBM Plex mono", monospace;
@@ -19,3 +19,7 @@
   --gap-small: 10px;
   --gap-medium: 20px;
 } 
+
+.theme-auto .rec {
+  display: none;
+}
