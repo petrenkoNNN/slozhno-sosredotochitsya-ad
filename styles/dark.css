@@ -1,4 +1,5 @@
 :root.theme-dark {
+  --section__title: #ff0070;
   --title-color: #000028;
   --accent-color: #ff0070;
   --accent-color-opacity: #ff007066;

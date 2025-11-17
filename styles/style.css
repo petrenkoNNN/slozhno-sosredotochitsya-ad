@@ -150,7 +150,7 @@
 }
 
 .section__title {
-  color: var(--title-color);
+  color: var(--section__title);
   font-weight: 700;
   font-size: var(--page-font-size);
   line-height: var(--line-height-medium);
