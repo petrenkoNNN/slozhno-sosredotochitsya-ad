@@ -245,32 +245,27 @@ article {
   .section {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: var(--gap-small);
+    gap: var(--gap-medium);
   }
 
   .section_second {
     grid-template-areas:
     "title l"
     "content content";
-    padding-block-start: var(--gap-medium);
   }
 
  .section_second > .section__title {
     grid-area: title;
+    padding-block-start: 10px;
   }
 
   .section_second > .section__card {
     grid-area: content;
-    padding-block-start: 10px;
   }
 
   .section_third {
     padding-block-start: 30px;
   }
-
-  .section_third > .section__card {
-    padding-block-start: 10px;
-}
 
   .section__title {
     grid-column: 1 / 2;
@@ -350,6 +345,14 @@ article {
   .header__theme-menu-list {
     display: flex;
     flex-direction: row;
+  }
+
+  .section {
+    gap: var(--gap-small);
+  }
+
+  .section_second {
+    padding-block-start: var(--gap-medium);
   }
 
   .section_second > .section__card {
