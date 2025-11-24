@@ -1,6 +1,6 @@
 :root {
-  --section__title: #353430;
-  --title-color: #ffc2e6;
+  --section__title: #ff0070;
+  --title-color: #000028;
   --accent-color: #ff0070;
   --accent-color-opacity: #ff007066;
   --text-color: #f1b2ce;
@@ -9,7 +9,7 @@
   --button-active-color: #ff0070;
   --button-focus-color: #ff0070;
   --background-color: #000028;
-  --header-color: #FFC2E6;
+  --header-color: #db00ff;
 
   --page-font-size: 18px;
   --page-font-family: "IBM Plex mono", monospace;
